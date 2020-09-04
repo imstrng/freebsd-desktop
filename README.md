@@ -1,7 +1,8 @@
 # freebsd-desktop
 
 
-
-#pkg install sudo pigz rsync tmux vim git htop en-freebsd-doc mpg123
-#pkg install xorg xfce gnome-screenshot luit nitrogen zenity dmenu i3-gaps i3lock i3status feh
-#pkg install firefox libreoffice gimp thunderbird audacity vlc
+```
+sudo pigz rsync tmux vim git htop en-freebsd-doc mpg123
+xorg xfce i3-gaps dmenu i3lock i3status feh gnome-screenshot luit nitrogen zenity
+firefox libreoffice gimp thunderbird audacity vlc
+```
