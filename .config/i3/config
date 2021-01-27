@@ -100,11 +100,12 @@ bindsym Mod1+Shift+e exec "i3-nagbar -t warning -m 'This will end your X session
 exec_always --no-startup-id feh --bg-max --randomize ~/.wallpaper/* &
 
 # lock screen
-bindsym Mod1+BackSpace exec i3lock  -i  ~/.config/i3/background.png
+bindsym Mod1+BackSpace exec i3lock   -i  ~/.config/i3/locked.png -c 000000
 
 # Start i3bar to display a workspace bar (plus the system information i3status
+#        status_command i3status
 bar {
-        status_command i3status
+        status_command ~/.config/i3/conky.sh
         position top
 }
 
