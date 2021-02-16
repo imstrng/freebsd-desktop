@@ -13,6 +13,7 @@ conky.config = {
 conky.text = [[
 
 [
+    {"full_text": " VOL: ${mixer pcm}% ", "color":"\#cccc00"},
     {"full_text": " UP: ${uptime_short} ", "color":"\#838184"},
     {"full_text": " CPU: ${cpu cpu0}% ", "color":"\#cf6a4c"},
     {"full_text": " RAM: ${memperc}%  $mem ","color ":"\#cda869"},
